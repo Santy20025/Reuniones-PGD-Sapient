@@ -1,0 +1,241 @@
+/* estilos.css */
+
+.bg-image {
+    background: #fafafa;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(21 43 61) !important; 
+}
+
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: #051d30 !important;
+}
+
+.text-warning {
+    --bs-text-opacity: 1;
+    color: rgba(255 255 254) !important;
+}
+
+.day-box {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.day-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+
+/* estilos.css */
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: #fff;
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.bg-image {
+    background: #fafafa;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(21 43 61) !important; 
+}
+
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: #051d30 !important;
+}
+
+.text-warning {
+    --bs-text-opacity: 1;
+    color: rgba(255 255 254) !important;
+}
+
+.day-box {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.day-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+  
+  
+  /* Encabezado de tabla */
+  .table thead th {
+    background-color: #ffc107 !important;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    background-color: #fff;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+  
+  /* Acciones con margen */
+  .table-actions button {
+    margin: 2px;
+  }
+  
+  /* Botones con transición */
+  button.btn {
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  button.btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive fix */
+  @media (max-width: 768px) {
+    .table-responsive {
+      font-size: 0.9rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  }
+
+  .btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #fff;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+  
+
+/* estilos.css */
+
+.bg-image {
+    background: #fafafa;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(21 43 61) !important; 
+}
+
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: #051d30 !important;
+}
+
+.text-warning {
+    --bs-text-opacity: 1;
+    color: rgba(255 255 254) !important;
+}
+
+.day-box {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.day-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
