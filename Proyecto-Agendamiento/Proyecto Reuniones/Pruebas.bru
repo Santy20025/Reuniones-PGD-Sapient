@@ -1,0 +1,26 @@
+meta {
+  name: Pruebas
+  type: http
+  seq: 1
+}
+
+put {
+  url: http://localhost:5000/actualizar-reunion
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "id": 1,
+    "hora": "10:30",
+    "sala": "Cafetería",
+    "coordinador": "Juan Pérez",
+    "fecha": "2025-06-07"
+  }
+  
+}
