@@ -39,6 +39,27 @@ app.get('/api/reuniones', (req, res) => {
   });
 });
 
+// Ruta para agendar una cita desde el formulario de Home
+app.post('/agendar-cita', (req, res) => {
+  const { hora, sala, coordinador, fecha } = req.body;
+
+  if (!hora || !sala || !coordinador || !fecha) {
+    return res.status(400).send('Datos incompletos');
+  }
+
+  const query =
+    'INSERT INTO reuniones (hora, sala, coordinador, fecha) VALUES (?, ?, ?, ?)';
+
+  db.query(query, [hora, sala, coordinador, fecha], (err, results) => {
+    if (err) {
+      console.error('Error al insertar la reunión:', err);
+      res.status(500).send('Error al agendar la reunión');
+    } else {
+      res.status(201).send('Reunión agendada');
+    }
+  });
+});
+
 // Inicia el servidor
 app.listen(port, () => {
   console.log(`Servidor en http://localhost:${port}`);
